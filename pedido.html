@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Perguntas</title>
+</head>
+
+<body class="body-default body-pedido p-4 d-sm-flex align-items-center">
+    <div class="container container-pedido d-flex justify-content-center align-items-center text-center gap-5 pb-4">
+        <div class="pedido mb-sm-5 position-relativ">
+            <h3>Bom... Tudo isso foi pra chegar aqui...</h3>
+            <p>
+                Aquele jogo no primeiro dia do Reaviva... O início de tudo. Eu percebi que até os dias comuns ficaram
+                diferentes: um simples “bom dia” seu já consegue transformar tudo. Cada conversa nossa, cada riso,
+                cada momento foi me mostrando o quanto você é especial para mim.
+
+                Gosto de
+                como você me dá paz, mas ao mesmo tempo traz aquele frio na barriga que só alguém importante consegue
+                causar.
+
+                E foi assim, quase sem perceber, que eu entendi: não quero que isso seja só um capítulo solto na minha
+                vida. Quero escrever uma história com você, lado a lado.
+
+                Então, eu queria te perguntar algo que já está aqui dentro faz tempo: você aceita namorar comigo? ❤️
+            </p>
+            <div class="position-relative mt-4" id="resposta-buttons">
+                <button id="btn-sim" class="btn btn-success btn-lg me-3" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Sim ❤️</button>
+                <audio id="musica" src="imgs/Ed Sheeran - Perfect (Official Music Video).mp3"></audio>
+                <button id="btn-nao" class="z-3 btn btn-danger btn-lg">Não 😅</button>
+            </div>
+
+        </div>
+        <picture>
+            <div id="carouselExample" class="carousel slide m-auto" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imgs/img3-orientada.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/img2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/img4.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/danca-junina.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/img1-orientada.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button> -->
+            </div>
+        </picture>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Enfim...</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Eu estou muito feliz que você aceitou 💖</p>
+                        <button id="coracoes" class="btn btn-primary">Corações</button>
+                    </div>
+                    <div class="modal-footer">
+                        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/pedido.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
